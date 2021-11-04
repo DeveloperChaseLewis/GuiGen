@@ -6,3 +6,12 @@
    the interpreter at `${workspaceFolder}/backend/.venv/scripts/python`
 - (Visual Studio Code) You will have to launch a new terminal window after selecting the proper python environment for Visual Studio Code to use the correct pip installer. You should see (.venv) in green at the beginning of your console row.
 - Install requirements doing `pip install requirements.txt`
+
+# Run
+## Backend
+- From root open a terminal and `cd backend`
+- Run `python main.py`
+
+## Frontend
+- From root open a terminal and `cd frontend`
+- Run `npm start`

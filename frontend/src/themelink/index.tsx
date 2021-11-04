@@ -1,5 +1,4 @@
 import { useEffect } from 'react';
-import {Helmet} from 'react-helmet';
 import { UIFramework, useThemeContext } from '../contexts/theme-context';
 
 
