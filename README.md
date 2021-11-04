@@ -1,17 +1,22 @@
+# Notes
+- Recommend working out of the workspace for maximum compatibility with Visual Studio extensions.
+
 # Setup Backend
-- Navigate to backend directory `cd backend`
+- Install Visual Studio Code Python Extension
+- Open terminal to the `backend` workspace
 - Create a virtual env within the backend folder `python -m venv .venv`
-- (Visual Studio Code) Make sure to have the python extension installed
-- (Visual Studio Code) Select the interpreter at the bottom right to be 
-   the interpreter at `${workspaceFolder}/backend/.venv/scripts/python`
-- (Visual Studio Code) You will have to launch a new terminal window after selecting the proper python environment for Visual Studio Code to use the correct pip installer. You should see (.venv) in green at the beginning of your console row.
-- Install requirements doing `pip install requirements.txt`
+- You will need to restart the terminal to start using the virtual python environment normally.
+- Install requirements doing `pip install -r requirements.txt`
+
+# Setup Frontend
+- Make sure you have node installed `brew install node`
+- In the frontend folder run `npm install`
 
 # Run
 ## Backend
-- From root open a terminal and `cd backend`
-- Run `python main.py`
+- From root open a terminal for the `backend` workspace
+- Run `python main.py` or Click Debug button with main.py open.
 
 ## Frontend
-- From root open a terminal and `cd frontend`
+- From terminal to frontend folder
 - Run `npm start`
